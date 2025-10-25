@@ -7,758 +7,682 @@ interface Question {
 const questionsData: Record<string, Question[]> = {
     week1: [
         {
-            question: '"Enquiry into plants" is a book written by',
-            options: ["Humboldt", "Malthus", "Linnaeus", "Theophrastus"],
-            correctAnswer: "Theophrastus",
+            "question": "\"Science of relationships between organisms and their environments\" is the definition of:",
+            "options": ["conservation", "preservation", "environmentalism", "ecology"],
+            "correctAnswer": "ecology"
         },
         {
-            question: "In the Greek word root of Ecology, Oikos refers to",
-            options: ["preservation", "household", "environment", "study"],
-            correctAnswer: "household",
+            "question": "The Trinity explosion of 1945 is taken as the beginning of the",
+            "options": ["Holocene", "Cenocene", "Anthropocene", "Eocene"],
+            "correctAnswer": "Anthropocene"
         },
         {
-            question: "Which of these is not a step in natural selection?",
-            options: ["variation", "underpopulation", "survival of the fittest", "struggle for existence"],
-            correctAnswer: "underpopulation",
+            "question": "Sustainable harvest of resources falls under the category of:",
+            "options": ["conservation", "preservation", "environmentalism", "none of the above"],
+            "correctAnswer": "conservation"
         },
         {
-            question: "Ecology is the scientific study of interactions among organisms and their ____.",
-            options: ["environment", "niche", "habitat", "population"],
-            correctAnswer: "environment",
+            "question": "The quantum of human impacts can be written as",
+            "options": ["I = P + A + T", "I = P X A + T", "I = P X A X T", "I = P + A X T"],
+            "correctAnswer": "I = P X A X T"
         },
         {
-            question: "Which of these is not a characteristic of fitness?",
-            options: [
-                "Fitness is environment-specific.",
-                "Fitness is species-specific.",
-                "Fitness works on traits such as size and speed.",
-                "Fitness should be measured across several generations.",
-            ],
-            correctAnswer: "Fitness is species-specific.",
+            "question": "The discipline of Demography is most closely related to:",
+            "options": ["Phytogeography", "Zoogeography", "Population Geography", "Economic Geography"],
+            "correctAnswer": "Population Geography"
         },
         {
-            question: "Who amongst these is considered the father of Biogeography?",
-            options: ["Humboldt", "Malthus", "Linnaeus", "Theophrastus"],
-            correctAnswer: "Humboldt",
+            "question": "\"The rate of any biological process is limited by that factor in least amount relative to requirement, so there is a single limiting factor.\" This is the statement for",
+            "options": ["Liebig's law of the minimum", "Liebig's law of the maximum", "Shelford's law of tolerance", "Shelford's law of intolerance"],
+            "correctAnswer": "Liebig's law of the minimum"
         },
         {
-            question: "Which of these is not a characteristic of fitness?",
-            options: [
-                "Fitness is environment-specific.",
-                "Fitness is species-specific.",
-                "Higher reproductive rate means higher fitness.",
-                "Fitness should be measured across several generations.",
-            ],
-            correctAnswer: "Fitness is species-specific.",
+            "question": "\"The geographical distribution of a species will be controlled by that environmental factor for which the organism has the narrowest range of tolerance.\" This is the statement for",
+            "options": ["Liebig's law of the minimum", "Liebig's law of the maximum", "Shelford's law of tolerance", "Shelford's law of intolerance"],
+            "correctAnswer": "Shelford's law of tolerance"
         },
         {
-            question: "Which of these is not a kind of selection?",
-            options: ["directional", "stochastic", "disruptive", "stabilising"],
-            correctAnswer: "stochastic",
+            "question": "The regional approach to Geography was developed by:",
+            "options": ["Alexander von Humboldt", "Karl Ritter", "Rene Descartes", "Eratosthenes"],
+            "correctAnswer": "Karl Ritter"
         },
         {
-            question: "Ecology is the scientific study of ____ that determine the distribution and abundance of organisms.",
-            options: ["statics", "interactions", "dynamics", "habitat"],
-            correctAnswer: "interactions",
+            "question": "Good climate is a",
+            "options": ["chemical factor", "demographic factor", "push factor", "pull factor"],
+            "correctAnswer": "pull factor"
         },
         {
-            question: "In the Greek word root of Ecology, Logos refers to",
-            options: ["environment", "study", "preservation", "household"],
-            correctAnswer: "study",
+            "question": "Scarcity of food is a",
+            "options": ["chemical factor", "demographic factor", "push factor", "pull factor"],
+            "correctAnswer": "push factor"
         },
     ],
     week2: [
         {
-            question: "The laboratory approach to ecology uses",
-            options: ["equations", "models", "experiments", "observations"],
-            correctAnswer: "experiments",
+            "question": "In an undisturbed sedimentary strata, bottom layers are older than layers above them. This is known as",
+            "options": ["Principle of superposition", "Principle of original horizontality", "Principle of lateral continuity", "Principle of inclusions"],
+            "correctAnswer": "Principle of superposition"
         },
         {
-            question: "Hierarchy emerges almost inevitably through a wide variety of evolutionary processes, for the simple reason that hierarchical structures are ____",
-            options: ["imperfect", "perfect", "stable", "unstable"],
-            correctAnswer: "stable",
+            "question": "Mount Vesuvius is an example of",
+            "options": ["Shield volcano", "Composite volcano", "Caldera", "Flood basalt province"],
+            "correctAnswer": "Composite volcano"
         },
         {
-            question: "For more biodiversity, the level of disturbance should be",
-            options: ["none of these", "more", "intermediate", "less"],
-            correctAnswer: "intermediate",
+            "question": "Krakatoa eruption resulted in the formation of",
+            "options": ["Shield volcano", "Stratovolcano", "Caldera", "Flood basalt province"],
+            "correctAnswer": "Caldera"
         },
         {
-            question: "The mitochondrion is a/an",
-            options: ["sub-cellular organelle", "cell", "tissue", "organ"],
-            correctAnswer: "sub-cellular organelle",
+            "question": "Which of these is not a method of absolute dating?",
+            "options": ["radioisotope dating", "thermoluminescence dating", "inclusion study", "fission track dating"],
+            "correctAnswer": "inclusion study"
         },
         {
-            question: "The emergent principle can be stated as",
-            options: ["none of these", "whole = sum of parts", "whole < sum of parts", "whole > sum of parts"],
-            correctAnswer: "whole > sum of parts",
+            "question": "Which of these is true about S waves?",
+            "options": ["They are longitudinal in nature", "They are transverse in nature", "They cannot move through solids, liquids and gases", "They are the first to reach the surface of the Earth"],
+            "correctAnswer": "They are transverse in nature"
         },
         {
-            question: '"The diversity that exists among different geographies" are',
-            options: ["delta biodiversity", "gamma biodiversity", "beta biodiversity", "alpha biodiversity"],
-            correctAnswer: "gamma biodiversity",
+            "question": "Hawaiian volcanoes are an example of",
+            "options": ["Shield volcano", "Stratovolcano", "Caldera", "Flood basalt province"],
+            "correctAnswer": "Shield volcano"
         },
         {
-            question: '“Groups of actually or potentially interbreeding natural populations, which are reproductively isolated from other such species” is a definition of',
-            options: ["biomes", "ecosystems", "species", "cells"],
-            correctAnswer: "species",
+            "question": "Within a depositional basin, strata are laterally continuous in all directions till the edge of the basin. This is known as",
+            "options": ["Principle of superposition", "Principle of original horizontality", "Principle of lateral continuity", "Principle of inclusions"],
+            "correctAnswer": "Principle of lateral continuity"
         },
         {
-            question: "There is more biodiversity in areas with",
-            options: [
-                "less competition, less predation",
-                "less competition, more predation",
-                "more competition, more predation",
-                "more competition, less predation",
-            ],
-            correctAnswer: "more competition, more predation",
+            "question": "Which of these is a gas giant?",
+            "options": ["Mercury", "Venus", "Mars", "Saturn"],
+            "correctAnswer": "Saturn"
         },
         {
-            question: "The hierarchical system was given by",
-            options: ["humboldt", "simon", "watson", "hutchinson"],
-            correctAnswer: "simon",
+            "question": "Assemblage of fossils are unique to the time that they lived in, and so can be used to age rocks across a wide geographic distribution. This is known as",
+            "options": ["Principle of fossil succession", "Principle of original horizontality", "Principle of superposition", "Principle of cross-cutting relationships"],
+            "correctAnswer": "Principle of fossil succession"
         },
         {
-            question: '"The diversity that exists within an ecosystem" is',
-            options: ["beta biodiversity", "alpha biodiversity", "delta biodiversity", "gamma biodiversity"],
-            correctAnswer: "alpha biodiversity",
+            "question": "Which of these is an example of direct source of information about the Earth?",
+            "options": ["earthquake", "volcanic eruption", "magnetic survey", "gravity anomaly"],
+            "correctAnswer": "volcanic eruption"
         },
     ],
     week3: [
         {
-            question: "Harmonious competition occurs where",
-            options: [
-                "both participants are unharmed",
-                "both participants are benefited",
-                "at least one participant is unharmed",
-                "at least one participant is benefited",
-            ],
-            correctAnswer: "both participants are unharmed",
+            "question": "\"the points where three or more cirques meet\" is the definition of",
+            "options": ["cirque", "arete", "horn", "hanging valley"],
+            "correctAnswer": "horn"
         },
         {
-            question: "The interaction between exotic shrubs and trees through the action of seed predators is an example of",
-            options: [
-                "harmonious competition",
-                "apparent competition",
-                "infraspecific competition",
-                "disguised competition",
-            ],
-            correctAnswer: "apparent competition",
+            "question": "Which of these is an example of endogenic process?",
+            "options": ["weathering", "mass movement", "erosion", "folding"],
+            "correctAnswer": "folding"
         },
         {
-            question: "An inventory of behaviors exhibited by an animal during a behavioral exercise is called",
-            options: ["behaviorogram", "animalogram", "ethogram", "ecogram"],
-            correctAnswer: "ethogram",
+            "question": "Sandstone is an example of",
+            "options": ["siliciclastic rock", "carbonate rock", "evaporite rock", "phosphatic rock"],
+            "correctAnswer": "siliciclastic rock"
         },
         {
-            question:
-                "I observe a bird take a tick out of another bird's head and eat it. In the social context, this behavior would be called",
-            options: ["auto grooming", "foraging", "allo grooming", "tick hunting"],
-            correctAnswer: "allo grooming",
+            "question": "\"smooth oval-shaped ridge-like features comprised of glacial till, gravel and sand arranged parallel to the direction of ice movement\" is the definition of",
+            "options": ["glacial till", "outwash deposit", "esker", "drumlin"],
+            "correctAnswer": "drumlin"
         },
         {
-            question: "Hamilton's rule can be stated as",
-            options: ["rB < C", "rB > C", "rB + C = 0", "rB = C"],
-            correctAnswer: "rB > C",
+            "question": "Which of these is an example of exogenic process?",
+            "options": ["volcanism", "earthquake", "plate tectonics", "deposition"],
+            "correctAnswer": "deposition"
         },
         {
-            question:
-                "I observe a monkey take a tick out of another monkey's head and eat it. In the social context, this behavior would be called",
-            options: ["auto grooming", "foraging", "allo grooming", "tick hunting"],
-            correctAnswer: "allo grooming",
+            "question": "\"white or colourless hard mineral virtually insoluble in water\" is a description of",
+            "options": ["amphiboles", "quartz", "feldspar", "pyroxene"],
+            "correctAnswer": "quartz"
         },
         {
-            question: "Egrets with buffaloes are an example of",
-            options: ["protocooperation", "commensalism", "colony", "allelopathy"],
-            correctAnswer: "commensalism",
+            "question": "Dolomite is an example of",
+            "options": ["siliciclastic rock", "carbonate rock", "evaporite rock", "phosphatic rock"],
+            "correctAnswer": "carbonate rock"
         },
         {
-            question: "Birds on giraffe are an example of",
-            options: ["commensalism", "colony", "protocooperation", "allelopathy"],
-            correctAnswer: "protocooperation",
+            "question": "\"green or black coloured inosilicate minerals forming prism or needle-like crystals\" is a description of",
+            "options": ["amphiboles", "feldspar", "mica", "pyroxene"],
+            "correctAnswer": "amphiboles"
         },
         {
-            question: "The scientific study of animal behavior is called",
-            options: ["ecology", "behaviorism", "ethology", "prey-predator dynamics"],
-            correctAnswer: "ethology",
+            "question": "\"deep, long and wide troughs or basins with very steep concave to vertically dropping high walls as its head and sides\" is the definition of",
+            "options": ["cirque", "arete", "horn", "hanging valley"],
+            "correctAnswer": "cirque"
         },
         {
-            question: "Trampling of grass due to the movement of animals is an example of",
-            options: ["amensalism", "commensalism", "protocooperation", "mutualism"],
-            correctAnswer: "amensalism",
+            "question": "\"magnesium iron silicate; a primary component of the Earth's upper mantle\" is a description of",
+            "options": ["amphiboles", "feldspar", "quartz", "olivine"],
+            "correctAnswer": "olivine"
         },
     ],
     week4: [
         {
-            question:
-                "If we all become vegetarians, we'll be able to support our large populations. This can be explained through",
-            options: ["biodiversity", "trophic cascades", "1% rule", "10% rule"],
-            correctAnswer: "10% rule",
+            "question": "Which of these air masses is generally cool and moist?",
+            "options": ["cP", "cT", "mP", "mT"],
+            "correctAnswer": "mP"
         },
         {
-            question: "At the compensation point",
-            options: [
-                "photosynthesis > respiration",
-                "photosynthesis < respiration",
-                "photosynthesis = respiration",
-                "photosynthesis = 0",
-            ],
-            correctAnswer: "photosynthesis = respiration",
+            "question": "Which of these air masses is generally cold and dry?",
+            "options": ["cP", "cT", "mP", "mT"],
+            "correctAnswer": "cP"
         },
         {
-            question: "Consider the food chain grass → grasshopper → frog → snake → hawk as we move up the food chain,",
-            options: [
-                "available energy is zero everywhere",
-                "available energy decreases",
-                "available energy increases",
-                "available energy remains same",
-            ],
-            correctAnswer: "available energy decreases",
+            "question": "The ISS orbits in which layer?",
+            "options": ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere"],
+            "correctAnswer": "Thermosphere"
         },
         {
-            question: "Consider the food chain grass → grasshopper → frog → snake → hawk in this food chain",
-            options: [
-                "equal numbers of hawks and grasshoppers can be supported",
-                "more numbers of grasshoppers than hawks can be supported",
-                "more numbers of hawks than grasshoppers can be supported",
-                "none of these",
-            ],
-            correctAnswer: "more numbers of grasshoppers than hawks can be supported",
+            "question": "The government came up with a regulation that incandescent bulbs be replaced by LED bulbs, so that electricity consumption and release of carbon dioxide from power plants is reduced. In the context of climate change, such an action would be called",
+            "options": ["adaptation", "mitigation", "deceleration", "maladaptation"],
+            "correctAnswer": "mitigation"
         },
         {
-            question: "Net primary productivity is given by",
-            options: ["APAR x LUE", "APAR − LUE", "APAR + LUE", "APAR / LUE"],
-            correctAnswer: "APAR x LUE",
+            "question": "Surplus seed and sperm banking is an adaptation option to facilitate",
+            "options": ["resistance to climate changes", "resilience to climate changes", "response to climate changes", "none of these"],
+            "correctAnswer": "resilience to climate changes"
         },
         {
-            question: "Consider the food chain grass → grasshopper → frog → snake → hawk in the food chain",
-            options: [
-                "hawk is consumer and herbivore",
-                "hawk is decomposer",
-                "hawk is consumer and carnivore",
-                "hawk is producer",
-            ],
-            correctAnswer: "hawk is consumer and carnivore",
+            "question": "The classical period for taking averages for climate is",
+            "options": ["10 years", "20 years", "30 years", "40 years"],
+            "correctAnswer": "30 years"
         },
         {
-            question: "Tree → frugivorous birds → hawk represents",
-            options: [
-                "dumb-bell pyramid of numbers",
-                "spindle pyramid of numbers",
-                "inverted pyramid of numbers",
-                "upright pyramid of numbers",
-            ],
-            correctAnswer: "spindle pyramid of numbers",
+            "question": "Noctilucent clouds are present in which layer?",
+            "options": ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere"],
+            "correctAnswer": "Mesosphere"
         },
         {
-            question: "Trees → birds → parasites → hyperparasites represent",
-            options: [
-                "upright pyramid of numbers",
-                "inverted pyramid of numbers",
-                "spindle pyramid of numbers",
-                "dumb-bell pyramid of numbers",
-            ],
-            correctAnswer: "inverted pyramid of numbers",
+            "question": "Because of climate change, Mudumalai Tiger Reserve is suffering from frequent droughts. The management has built several artificial water holes for animals, and fills them up regularly with tankers. In the context of climate change, such an action would be called",
+            "options": ["adaptation", "mitigation", "deceleration", "maladaptation"],
+            "correctAnswer": "adaptation"
         },
         {
-            question: "Consider the food chain grass → grasshopper → frog → snake → hawk in this food chain",
-            options: [
-                "frog is producer",
-                "frog is decomposer",
-                "frog is consumer and herbivore",
-                "frog is consumer and carnivore",
-            ],
-            correctAnswer: "frog is consumer and carnivore",
+            "question": "Which of these is home to the ozone layer?",
+            "options": ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere"],
+            "correctAnswer": "Stratosphere"
         },
         {
-            question: "Glacial lakes are typical examples of",
-            options: ["hypertrophic lakes", "mesotrophic lakes", "oligotrophic lakes", "eutrophic lakes"],
-            correctAnswer: "oligotrophic lakes",
+            "question": "Most of the weather phenomena occur in",
+            "options": ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere"],
+            "correctAnswer": "Troposphere"
         },
     ],
     week5: [
         {
-            question: "The logistic growth equation, when plotted, appears",
-            options: ["O shaped", "I shaped", "S shaped", "J shaped"],
-            correctAnswer: "S shaped",
+            "question": "Equal density curves are called",
+            "options": ["isopycnal curves", "isohaline curves", "isotherm curves", "isobuoyant curves"],
+            "correctAnswer": "isopycnal curves"
         },
         {
-            question: "Which of these is not a measure of absolute population density?",
-            options: ["removal method", "total count", "pelt count", "capture-recapture method"],
-            correctAnswer: "pelt count",
+            "question": "Which of these is a minor feature of the ocean floor?",
+            "options": ["continental shelf", "continental slope", "guyot", "abyssal plain"],
+            "correctAnswer": "guyot"
         },
         {
-            question: "Pan traps are used for sampling",
-            options: ["non-pollinator insects", "butterflies", "bees", "pollinator insects"],
-            correctAnswer: "pollinator insects",
+            "question": "\"mountains with pointed summits rising from the sea floor, but not reaching the surface of the ocean\" is a description of",
+            "options": ["oceanic deep / trench", "mid-oceanic ridge", "seamount", "atoll"],
+            "correctAnswer": "seamount"
         },
         {
-            question: "Cover board surveys are typically used for sampling",
-            options: ["herpetofauna", "fishes", "large mammals", "carnivores"],
-            correctAnswer: "herpetofauna",
+            "question": "Which of these is the largest habitat on the Earth?",
+            "options": ["continental shelf", "continental slope", "guyot", "abyssal plain"],
+            "correctAnswer": "abyssal plain"
         },
         {
-            question:
-                "_____ employs a simple rule of selecting every kth unit starting with a number chosen at random from 1 to k as the random start",
-            options: ["multistage sampling", "systematic sampling", "simple random sampling", "stratified sampling"],
-            correctAnswer: "systematic sampling",
+            "question": "Which of these are the largest mountain ranges on Earth?",
+            "options": ["oceanic deep / trench", "mid-oceanic ridge", "seamount", "atoll"],
+            "correctAnswer": "mid-oceanic ridge"
         },
         {
-            question: "The juvenile mortality rate is the annual number of deaths of juveniles per",
-            options: ["100 births", "1000 live births", "1000 births", "100 live births"],
-            correctAnswer: "1000 live births",
+            "question": "\"deep valleys, often cutting across continental shelves and slopes\" is a description of",
+            "options": ["oceanic deep / trench", "mid-oceanic ridge", "guyot", "submarine canyon"],
+            "correctAnswer": "submarine canyon"
         },
         {
-            question: "The minimum replacement level fertility for a population to grow should be greater than",
-            options: ["1", "2", "3", "4"],
-            correctAnswer: "2",
+            "question": "Continental slope has a gradient of",
+            "options": ["0-1 degree", "1-2 degree", "2-5 degree", "5-10 degree"],
+            "correctAnswer": "2-5 degree"
         },
         {
-            question: "_____ is how close the measured values are to the correct value",
-            options: ["accuracy", "precision", "bias", "variance"],
-            correctAnswer: "accuracy",
+            "question": "Which of these is not a prominent tidal pattern?",
+            "options": ["diurnal", "mixed diurnal", "semidiurnal", "mixed semidiurnal"],
+            "correctAnswer": "mixed diurnal"
         },
         {
-            question: "Which of these is true",
-            options: [
-                "physiological longevity < ecological longevity",
-                "a or b",
-                "physiological longevity = ecological longevity",
-                "physiological longevity > ecological longevity",
-            ],
-            correctAnswer: "a or b",
+            "question": "\"relatively steep-sided, narrow, deep basins\" is a description of",
+            "options": ["oceanic deep / trench", "mid-oceanic ridge", "seamount", "atoll"],
+            "correctAnswer": "oceanic deep / trench"
         },
         {
-            question:
-                "A sampling procedure such that each possible combination of sampling units out of the population has the same chance of being selected is referred to as",
-            options: ["stratified sampling", "systematic sampling", "simple random sampling", "multistage sampling"],
-            correctAnswer: "simple random sampling",
+            "question": "In the sea, a layer where the temperature decreases rapidly from the mixed upper layer to the cold deeper layer is called",
+            "options": ["isopycnal", "thermophil", "thermohaline", "thermocline"],
+            "correctAnswer": "thermocline"
         },
     ],
     week6: [
         {
-            question: "Importance value can be written as",
-            options: [
-                "relative density + relative frequency X relative dominance",
-                "relative density X relative frequency X relative dominance",
-                "relative density X relative frequency + relative dominance",
-                "relative density + relative frequency + relative dominance",
-            ],
-            correctAnswer: "relative density + relative frequency + relative dominance",
+            "question": "In Koeppen classification, which is hot summer temperature?",
+            "options": ["h", "k", "a", "b"],
+            "correctAnswer": "a"
         },
         {
-            question: "Which of these is correct?",
-            options: [
-                "fundamental niche > realised niche",
-                "fundamental niche = realised niche",
-                "fundamental niche < realised niche",
-                "a or b",
-            ],
-            correctAnswer: "fundamental niche < realised niche",
+            "question": "In Koeppen classification, which is desert precipitation?",
+            "options": ["W", "S", "f", "s"],
+            "correctAnswer": "W"
         },
         {
-            question: "Importance value varies from",
-            options: ["0 to 10", "0 to 50", "0 to 100", "0 to 300"],
-            correctAnswer: "0 to 300",
+            "question": "India's location is",
+            "options": ["Equatorial in South, Tropical in North", "Tropical in South, Equatorial in North", "Tropical in South, Sub-tropical in North", "Sub-tropical in South, Tropical in North"],
+            "correctAnswer": "Tropical in South, Sub-tropical in North"
         },
         {
-            question: "Which of these depicts correctly the lithosere primary succession",
-            options: [
-                "moss → crustose lichen → foliose lichen → rock → herbaceous stage → shrub → woodland → climax",
-                "rock → foliose lichen → crustose lichen → moss → herbaceous stage → shrub → woodland → climax",
-                "rock → crustose lichen → foliose lichen → moss → herbaceous stage → shrub → woodland → climax",
-                "moss → crustose lichen → foliose lichen → shrub → woodland → climax",
-            ],
-            correctAnswer: "rock → crustose lichen → foliose lichen → moss → herbaceous stage → shrub → woodland → climax",
+            "question": "In Koeppen classification, which is cold arid temperature?",
+            "options": ["h", "k", "a", "b"],
+            "correctAnswer": "k"
         },
         {
-            question: "Which of these is not a characteristic of pioneer species",
-            options: ["short life span", "ability to grow on bare rocks", "ability to tolerate extreme temperatures", "large size"],
-            correctAnswer: "large size",
+            "question": "In Koeppen classification, which is winter dry precipitation?",
+            "options": ["w", "S", "f", "s"],
+            "correctAnswer": "w"
         },
         {
-            question:
-                "The climax near Tindi village is being controlled by disturbance by cattle. This is an example of",
-            options: ["disclimax", "catastrophic climax", "edaphic climax", "climatic climax"],
-            correctAnswer: "disclimax",
+            "question": "In Koeppen classification, which is cool summer temperature?",
+            "options": ["c", "d", "F", "T"],
+            "correctAnswer": "c"
         },
         {
-            question:
-                "A species found most frequently in a particular community, but also present occasionally in others is called",
-            options: ["accidental species", "indifferent species", "selective species", "exclusive species"],
-            correctAnswer: "selective species",
+            "question": "Which of these is the correct sequence of seasons in India?",
+            "options": ["Hot weather season → Retreating monsoon season → South-West monsoon season → Cold weather season", "Hot weather season → South-West monsoon season → Retreating monsoon season → Cold weather season", "Hot weather season → Cold weather season → South-West monsoon season → Retreating monsoon season", "Hot weather season → South-West monsoon season → Cold weather season → Retreating monsoon season"],
+            "correctAnswer": "Hot weather season → South-West monsoon season → Retreating monsoon season → Cold weather season"
         },
         {
-            question: "When compared to generalist species, specialist species have",
-            options: ["none of these", "same-size niches", "broader niches", "narrower niches"],
-            correctAnswer: "narrower niches",
+            "question": "In Koeppen classification, which is monsoonal precipitation?",
+            "options": ["W", "S", "m", "s"],
+            "correctAnswer": "m"
         },
         {
-            question: "A climax caused by wildfires is an example of",
-            options: ["catastrophic climax", "edaphic climax", "disclimax", "climatic climax"],
-            correctAnswer: "catastrophic climax",
+            "question": "Physiography is the outcome of",
+            "options": ["structure", "process", "stage of development", "all of these"],
+            "correctAnswer": "all of these"
         },
         {
-            question: "Lithosere is an example of",
-            options: ["xerosere", "hydrosere", "halosere", "psammosere"],
-            correctAnswer: "xerosere",
+            "question": "In Koeppen classification, which is equatorial climate?",
+            "options": ["A", "B", "C", "D"],
+            "correctAnswer": "A"
         },
     ],
     week7: [
         {
-            question: "Transplantation experiments are used to find",
-            options: ["actual range", "effective range", "economic range", "potential range"],
-            correctAnswer: "potential range",
+            "question": "Soil formation is dependent upon",
+            "options": ["vegetation", "time", "climate", "all of the above"],
+            "correctAnswer": "all of the above"
         },
         {
-            question:
-                '"The rate of biological process is limited by that factor in least amount relative to requirement, so there is a single limiting factor" this is the statement for',
-            options: [
-                "Shelford's law of tolerance",
-                "Liebig's law of maximum",
-                "Shelford's law of intolerance",
-                "Liebig's law of minimum",
-            ],
-            correctAnswer: "Liebig's law of minimum",
+            "question": "Which of these is not a characteristic of pioneer species",
+            "options": ["ability to grow on bare rocks", "ability to tolerate extreme temperatures", "large size", "short life span"],
+            "correctAnswer": "large size"
         },
         {
-            question:
-                '"The geographical distribution of a species will be controlled by that environmental factor for which the organism has the narrowest range of tolerance" this is the statement for',
-            options: [
-                "Shelford's law of intolerance",
-                "Shelford's law of tolerance",
-                "Liebig's law of maximum",
-                "Liebig's law of minimum",
-            ],
-            correctAnswer: "Shelford's law of tolerance",
+            "question": "\"groups of actually or potentially interbreeding natural populations, which are reproductively isolated from other such groups\" is a definition of",
+            "options": ["cells", "species", "ecosystems", "biomes"],
+            "correctAnswer": "species"
         },
         {
-            question: "Which of these is a physical factor of habitat?",
-            options: ["predators", "temperatures", "moisture", "soil"],
-            correctAnswer: "predators",
+            "question": "Mechanical action of ocean waves is an example of",
+            "options": ["chemical weathering", "physical weathering", "biological weathering", "none of the above"],
+            "correctAnswer": "physical weathering"
         },
         {
-            question:
-                "The movement of individuals away from their place of birth or hatching or seed production into a new habitat or area to survive and reproduce is called",
-            options: ["translocation", "migration", "dispersal", "drifting"],
-            correctAnswer: "dispersal",
+            "question": "The climax near Tindni village is being controlled by disturbance by cattle. This is an example of",
+            "options": ["climatic climax", "edaphic climax", "disclimax", "catastrophic climax"],
+            "correctAnswer": "disclimax"
         },
         {
-            question: "The movement of lions across the Gir landscape is an example of",
-            options: ["secular dispersal", "diffusion", "drifting", "jump dispersal"],
-            correctAnswer: "diffusion",
+            "question": "Carbonation is an example of",
+            "options": ["chemical weathering", "physical weathering", "biological weathering", "none of the above"],
+            "correctAnswer": "chemical weathering"
         },
         {
-            question:
-                "I tried growing vegetables under my teak plantation, but the vegetable plants died out. I should be concerned about",
-            options: ["autopathy", "allelopathy", "autopathy", "allelopathy"],
-            correctAnswer: "allelopathy",
+            "question": "In soil profile, C refers to",
+            "options": ["organic surface layer", "topsoil layer", "subsoil layer", "substratum layer"],
+            "correctAnswer": "substratum layer"
         },
         {
-            question: '"Quick movement over large distances, often across unsuitable terrain" is a definition of',
-            options: ["drifting", "jump dispersal", "secular dispersal", "diffusion"],
-            correctAnswer: "jump dispersal",
+            "question": "A climax caused by wildfires is an example of",
+            "options": ["climatic climax", "edaphic climax", "disclimax", "catastrophic climax"],
+            "correctAnswer": "catastrophic climax"
         },
         {
-            question: "Scarcity of food is a",
-            options: ["chemical factor", "push factor", "demographic factor", "pull factor"],
-            correctAnswer: "push factor",
+            "question": "Regur is a term for",
+            "options": ["black cotton soil", "alluvial soil", "saline soil", "red and yellow soil"],
+            "correctAnswer": "black cotton soil"
         },
         {
-            question: "Good climate is a",
-            options: ["demographic factor", "pull factor", "push factor", "chemical factor"],
-            correctAnswer: "pull factor",
+            "question": "\"the diversity that exists among different geographies\" is",
+            "options": ["alpha (α) biodiversity", "beta (β) biodiversity", "gamma (γ) biodiversity", "delta (δ) biodiversity"],
+            "correctAnswer": "gamma (γ) biodiversity"
         },
     ],
     week8: [
         {
-            question: "Captive breeding is an example of",
-            options: ["ex-situ preservation", "ex-situ conservation", "in-situ conservation", "in-situ preservation"],
-            correctAnswer: "ex-situ conservation",
+            "question": "The fig tree bears fruits in times when animals do not have much access to food. In this context, it would be a good example of",
+            "options": ["least concern species", "keystone species", "flagship species", "extinct species"],
+            "correctAnswer": "keystone species"
         },
         {
-            question: '"The subset of physical and biotic environmental factors that permit an animal (or plant) to survive and reproduce" is the definition of',
-            options: ["habitat", "ecosystem", "biome", "biosphere"],
-            correctAnswer: "habitat",
+            "question": "The \"subset of physical and biotic environmental factors that permit an animal (or plant) to survive and reproduce\" is the definition of",
+            "options": ["habitat", "ecosystem", "biome", "biosphere"],
+            "correctAnswer": "habitat"
         },
         {
-            question: "We prefer those areas for the creation of conservation reserve where the level of threat is",
-            options: ["very high", "medium", "non-existent", "very low"],
-            correctAnswer: "medium",
-        },
-        {
-            question: "Which of these correctly represents the process of habitat fragmentation and loss",
-            options: [
-                "original forest → dissection → fragmentation → perforation → attrition",
-                "original forest → dissection → perforation → attrition → fragmentation",
-                "original forest → dissection → perforation → fragmentation → attrition",
-                "original forest → dissection → attrition → fragmentation → perforation",
+            "question": "Which of these correctly represents the process of habitat fragmentation and loss?",
+            "options": [
+                "Original forest → Dissection → Perforation → Fragmentation → Attrition",
+                "Original forest → Dissection → Attrition → Fragmentation → Perforation",
+                "Original forest → Dissection → Perforation → Attrition → Fragmentation",
+                "Original forest → Dissection → Fragmentation → Perforation → Attrition"
             ],
-            correctAnswer: "original forest → dissection → fragmentation → perforation → attrition",
+            "correctAnswer": "Original forest → Dissection → Perforation → Fragmentation → Attrition"
         },
         {
-            question: "According to Leopold, which of these is not a tool of habitat management",
-            options: ["sickle", "gun", "tire", "cattle"],
-            correctAnswer: "gun",
+            "question": "Soil formation is an example of",
+            "options": ["provisioning service", "regulating service", "supporting service", "cultural service"],
+            "correctAnswer": "supporting service"
         },
         {
-            question: "Which of these is a deterministic factor?",
-            options: ["environmental variation", "diseases", "forest fire", "death rate"],
-            correctAnswer: "death rate",
+            "question": "Biological control of pest populations is an example of",
+            "options": ["provisioning service", "regulating service", "supporting service", "cultural service"],
+            "correctAnswer": "regulating service"
         },
         {
-            question: "The acronym HIPPO does not include",
-            options: ["invasive species", "habitat loss", "habitat enhancement", "human overpopulation"],
-            correctAnswer: "habitat enhancement",
+            "question": "The acronym HIPPO does not include",
+            "options": ["habitat loss", "invasive species", "pollination", "pollution"],
+            "correctAnswer": "pollination"
         },
         {
-            question: "Which of these is a stochastic factor",
-            options: ["environmental fluctuation", "death rate", "birth rate", "population structure"],
-            correctAnswer: "environmental fluctuation",
+            "question": "The tiger has a home range of several square kilometres, regulates the ecosystem through controlling herbivore populations and trophic cascades, and people come to tiger reserves to watch tigers. Thus, the tiger can be called as",
+            "options": ["umbrella species", "keystone species", "flagship species", "all of the above"],
+            "correctAnswer": "all of the above"
         },
         {
-            question: "Zoo is an example of",
-            options: ["in-situ conservation", "ex-situ conservation", "in-situ preservation", "ex-situ preservation"],
-            correctAnswer: "ex-situ conservation",
+            "question": "People come to Sessa orchid sanctuary in Arunachal Pradesh to witness orchids, which in this context would be classified as",
+            "options": ["umbrella species", "keystone species", "flagship species", "extinct species"],
+            "correctAnswer": "flagship species"
         },
         {
-            question: "The acronym HIPPO does not include",
-            options: ["habitat loss", "pollution", "invasive species", "pollination"],
-            correctAnswer: "pollination",
+            "question": "Captive breeding is an example of",
+            "options": ["in-situ conservation", "ex-situ conservation", "in-situ preservation", "ex-situ preservation"],
+            "correctAnswer": "ex-situ conservation"
+        },
+        {
+            "question": "We prefer those areas for the creation of a conservation reserve where the level of threat is",
+            "options": ["very high", "medium", "very low", "non-existent"],
+            "correctAnswer": "medium"
         },
     ],
     week9: [
         {
-            question: "The quantum of human impacts is given by",
-            options: ["I = P − (A×T)", "I = P × A × T", "I = P + A + T", "I = P + A − T"],
-            correctAnswer: "I = P × A × T",
+            "question": "According to Malthusian model,",
+            "options": [
+                "Population grows in geometric progression, food supply increases in arithmetic progression",
+                "Population grows in geometric progression, food supply increases in geometric progression",
+                "Population grows in arithmetic progression, food supply increases in arithmetic progression",
+                "Population grows in arithmetic progression, food supply increases in geometric progression"
+            ],
+            "correctAnswer": "Population grows in geometric progression, food supply increases in arithmetic progression"
         },
         {
-            question: "_____ determines which projects or developments require a full or partial impact assessment study.",
-            options: ["screening", "reporting", "review", "scoping"],
-            correctAnswer: "screening",
+            "question": "Which of these is commonly observed during humanising of nature?",
+            "options": [
+                "environmental determinism",
+                "possibilism",
+                "neodeterminism",
+                "stop and go determinism"
+            ],
+            "correctAnswer": "possibilism"
         },
         {
-            question: 'The book "An Essay on the Principle of Population" was written by',
-            options: ["Malthus", "Darwin", "Owens", "Spencer"],
-            correctAnswer: "Malthus",
+            "question": "Which of these is a pillar of sustainability",
+            "options": [
+                "social sustainability",
+                "industrial sustainability",
+                "agricultural sustainability",
+                "trans-boundary sustainability"
+            ],
+            "correctAnswer": "social sustainability"
         },
         {
-            question: "Which of these is not a pillar of sustainability?",
-            options: ["agricultural sustainability", "economic sustainability", "environmental sustainability", "trans-boundary sustainability"],
-            correctAnswer: "trans-boundary sustainability",
+            "question": "Which of these is commonly observed in primitive societies?",
+            "options": [
+                "environmental determinism",
+                "possibilism",
+                "neodeterminism",
+                "stop and go determinism"
+            ],
+            "correctAnswer": "environmental determinism"
         },
         {
-            question: "Which of these is a preventive check according to Malthus?",
-            options: ["foresight", "vice", "misery", "flood"],
-            correctAnswer: "foresight",
-        },
-        {
-            question: "Which of these is a positive check according to Malthus?",
-            options: ["war", "moral restraint", "late marriage", "celibacy"],
-            correctAnswer: "war",
-        },
-        {
-            question: "The demographic transition sees a society move from",
-            options: [
-                "high birth rate, low death rate to low birth rate, low death rate",
+            "question": "The demographic transition sees a society move from",
+            "options": [
+                "high birth rate, low death rate to low birth rate, high death rate",
                 "low birth rate, high death rate to low birth rate, low death rate",
                 "high birth rate, high death rate to low birth rate, low death rate",
-                "high birth rate, high death rate to low birth rate, high death rate",
+                "high birth rate, high death rate to low birth rate, high death rate"
             ],
-            correctAnswer: "high birth rate, high death rate to low birth rate, low death rate",
+            "correctAnswer": "high birth rate, high death rate to low birth rate, low death rate"
         },
         {
-            question: "According to the Malthusian model",
-            options: [
-                "population grows in arithmetic progression, food supply increases in arithmetic progression",
-                "population grows in geometric progression, food supply increases in geometric progression",
-                "population grows in arithmetic progression, food supply increases in geometric progression",
-                "population grows in geometric progression, food supply increases in arithmetic progression",
+            "question": "The logistic growth equation curve is",
+            "options": [
+                "I-shaped",
+                "J-shaped",
+                "S-shaped",
+                "U-shaped"
             ],
-            correctAnswer: "population grows in geometric progression, food supply increases in arithmetic progression",
+            "correctAnswer": "S-shaped"
         },
         {
-            question: "_____ is used to identify which potential impacts are relevant to assess.",
-            options: ["review", "screening", "scoping", "reporting"],
-            correctAnswer: "scoping",
+            "question": "Which of these is a preventive check according to Malthus?",
+            "options": [
+                "foresight",
+                "vice",
+                "misery",
+                "flood"
+            ],
+            "correctAnswer": "foresight"
         },
         {
-            question: "Which of these is a pillar of sustainability",
-            options: ["trans-boundary sustainability", "industrial sustainability", "social sustainability", "agricultural sustainability"],
-            correctAnswer: "social sustainability",
+            "question": "Which of these is not a pillar of sustainability?",
+            "options": [
+                "environmental sustainability",
+                "economic sustainability",
+                "trans-boundary sustainability",
+                "social sustainability"
+            ],
+            "correctAnswer": "trans-boundary sustainability"
+        },
+        {
+            "question": "The book \"An Essay on the Principle of Population\" was written by",
+            "options": [
+                "Darwin",
+                "Malthus",
+                "Spencer",
+                "Owens"
+            ],
+            "correctAnswer": "Malthus"
+        },
+        {
+            "question": "Which of these is a positive check according to Malthus?",
+            "options": [
+                "late marriage",
+                "war",
+                "celibacy",
+                "moral restraint"
+            ],
+            "correctAnswer": "war"
         },
     ],
     week10: [
         {
-            question:
-                '"The ability of a system to adjust to climate change (including climate variability and extremes) to moderate potential damages, to take advantage of opportunities, or to cope with the consequences" is a definition of',
-            options: ["mitigative capacity", "adaptive response", "adaptive capacity", "mitigative response"],
-            correctAnswer: "adaptive capacity",
+            "question": "Hydrogen for nuclear fusion comes under the category of",
+            "options": ["potential resources", "actual resources", "reserve resources", "stock resources"],
+            "correctAnswer": "stock resources"
         },
         {
-            question:
-                '"Any changes in natural or human systems that inadvertently increase vulnerability to climatic stimuli; an adaptation that does not succeed in reducing vulnerability but increases it instead" is a definition of',
-            options: ["malmitigation", "adaptation", "mitigation", "maladaptation"],
-            correctAnswer: "maladaptation",
+            "question": "Which of these is the largest source of ammonia (NH3) in the atmosphere?",
+            "options": ["animal manure", "mineral fertiliser", "crops and their decomposition", "human waste"],
+            "correctAnswer": "animal manure"
         },
         {
-            question: "Which of these is not a climatic forcing for Earth?",
-            options: ["changes in Moon's orbit", "changes in Earth's orbit", "changes in plate tectonics", "changes in Sun's strength"],
-            correctAnswer: "changes in Moon's orbit",
+            "question": "\"the part of actual resources that can be developed profitably in the future\" is a definition of",
+            "options": ["potential resources", "actual resources", "reserve resources", "stock resources"],
+            "correctAnswer": "reserve resources"
         },
         {
-            question: "Which of these is not a principle of ecological restoration?",
-            options: ["ecological integrity", "short term sustainability", "informed by past and future", "benefits and engages society"],
-            correctAnswer: "short term sustainability",
+            "question": "Timber from forests that is being harvested can be categorised under",
+            "options": ["potential resources", "actual resources", "reserve resources", "stock resources"],
+            "correctAnswer": "actual resources"
         },
         {
-            question: "Macrodebris in the context of plastic debris has fragment of size",
-            options: ["<5mm", "<1mm", ">20mm", "5–20mm"],
-            correctAnswer: ">20mm",
+            "question": "Rain gardens are primarily meant to",
+            "options": ["reduce water usage", "increase recharge to groundwater", "protect existing water sources", "increase water flow to streams"],
+            "correctAnswer": "increase recharge to groundwater"
         },
         {
-            question: "Which of these is not a principle of ecological restoration?",
-            options: ["ecological integrity", "long term sustainability", "informed by past and future", "benefits and engages scientists"],
-            correctAnswer: "benefits and engages scientists",
+            "question": "Oil that has not been drilled can be categorised under",
+            "options": ["potential resources", "actual resources", "reserve resources", "stock resources"],
+            "correctAnswer": "potential resources"
         },
         {
-            question: "Which of these is not a climatic forcing for Earth?",
-            options: ["changes in Sun's strength", "changes in Sun's orbit", "changes in plates tectonics", "changes in Earth's orbit"],
-            correctAnswer: "changes in Sun's orbit",
+            "question": "Which of these is the largest source of nitrogen oxides in the atmosphere?",
+            "options": ["electricity generation", "mobile sources", "industrial processes", "waste disposal"],
+            "correctAnswer": "mobile sources"
         },
         {
-            question:
-                "The government came up with a regulation that incandescent bulbs be replaced by LED bulbs, so that electricity consumption and release of carbon dioxide from power plants is reduced. In the context of climate change, such an action would be called",
-            options: ["deceleration", "maladaptation", "mitigation", "adaptation"],
-            correctAnswer: "mitigation",
+            "question": "\"those resources that are currently being used after surveying, quantification and qualification\" is a definition of",
+            "options": ["potential resources", "actual resources", "reserve resources", "stock resources"],
+            "correctAnswer": "actual resources"
         },
         {
-            question:
-                "Because of climate change, Mudumalai tiger reserve is suffering from frequent droughts. The management has built several artificial water holes for animals, and fills them up regularly with tankers. In the context of climate change, such an action would be called",
-            options: ["adaptation", "mitigation", "maladaptation", "deceleration"],
-            correctAnswer: "adaptation",
+            "question": "\"those resources that may be used in the future\" is a definition of",
+            "options": ["potential resources", "actual resources", "reserve resources", "stock resources"],
+            "correctAnswer": "potential resources"
         },
         {
-            question: "Mesodebris in the context of plastic debris has fragment of size",
-            options: ["<1mm", "<5mm", ">20mm", "5–20 mm"],
-            correctAnswer: "5–20 mm",
+            "question": "Low concentration ores come in the category of",
+            "options": ["potential resources", "actual resources", "reserve resources", "stock resources"],
+            "correctAnswer": "reserve resources"
         },
     ],
     week11: [
         {
-            question: "The impact of El Nino on fishery in Peru is explained by",
-            options: ["none of these", "match hypothesis", "mismatch hypothesis", "match-mismatch hypothesis"],
-            correctAnswer: "match-mismatch hypothesis",
-        },
-        {
-            question: "Which of these is a non-conventional energy source?",
-            options: ["coal", "nuclear energy", "natural gas", "solar energy"],
-            correctAnswer: "solar energy",
-        },
-        {
-            question: "Which of these is a gas?",
-            options: ["coal", "oil", "wood", "natural gas"],
-            correctAnswer: "natural gas",
-        },
-        {
-            question: "Which of these is not an aerosol?",
-            options: ["pollen", "ash", "methane", "dust"],
-            correctAnswer: "methane",
-        },
-        {
-            question: "Most common sources of oil pollution in oceans are",
-            options: [
-                "natural sources",
-                "atmospheric fallout",
-                "discharge from ships",
-                "sewage runoff and land drainage",
-            ],
-            correctAnswer: "sewage runoff and land drainage",
-        },
-        {
-            question: "The convention on Biological Diversity came into force in",
-            options: ["1993", "1992", "1995", "2000"],
-            correctAnswer: "1993",
-        },
-        {
-            question: "Which of these is most soluble in water?",
-            options: ["sulfur dioxide", "oxygen", "nitrogen", "hydrogen"],
-            correctAnswer: "sulfur dioxide",
-        },
-        {
-            question: "Which of these is not an air pollutant?",
-            options: ["lead", "carbon monoxide", "zinc", "methane"],
-            correctAnswer: "zinc",
-        },
-        {
-            question: "The Minamata disease was caused by",
-            options: ["lead", "mercury", "copper", "zinc"],
-            correctAnswer: "mercury",
-        },
-        {
-            question: "The principal greenhouse gas responsible for global warming is",
-            options: ["carbon dioxide", "ozone", "nitrous oxide", "sulfur dioxide"],
-            correctAnswer: "carbon dioxide",
-        },
+      "question": "New Delhi can best be categorised as",
+      "options": ["administrative town", "industrial town", "transport town", "commercial town"],
+      "correctAnswer": "administrative town"
+    },
+    {
+      "question": "Which of these is a factor governing barrier effect of roads?",
+      "options": ["traffic intensity", "speed of vehicles", "driver sensitivity", "all of these"],
+      "correctAnswer": "all of these"
+    },
+    {
+      "question": "Which of these is a factor governing barrier effect of roads?",
+      "options": ["presence and location of animal crossings", "movement pattern of species", "species specific preference of road use", "all of these"],
+      "correctAnswer": "all of these"
+    },
+    {
+      "question": "Varanasi can best be categorised as",
+      "options": ["mining town", "garrison town", "educational town", "religious town"],
+      "correctAnswer": "religious town"
+    },
+    {
+      "question": "\"the ability to produce a good using fewer inputs than another producer\" is",
+      "options": ["comparative advantage", "absolute advantage", "production advantage", "resource advantage"],
+      "correctAnswer": "absolute advantage"
+    },
+    {
+      "question": "\"the price of a good that prevails in the world market for that good\" is the definition of",
+      "options": ["export price", "import price", "world price", "domestic price"],
+      "correctAnswer": "world price"
+    },
+    {
+      "question": "Visakhapatnam can best be categorised as",
+      "options": ["administrative town", "industrial town", "transport town", "commercial town"],
+      "correctAnswer": "transport town"
+    },
+    {
+      "question": "Which of these is / are example(s) of mitigation measures to mitigate impacts of linear infrastructure on wildlife?",
+      "options": ["land bridges", "canopy bridges", "glider poles", "all of these"],
+      "correctAnswer": "all of these"
+    },
+    {
+      "question": "Bhilai can best be categorised as",
+      "options": ["administrative town", "industrial town", "transport town", "commercial town"],
+      "correctAnswer": "industrial town"
+    },
+    {
+      "question": "\"the ability to produce a good at a lower opportunity cost than another producer\" is a definition of",
+      "options": ["real advantage", "monetary advantage", "comparative advantage", "opportunity advantage"],
+      "correctAnswer": "comparative advantage"
+    },
     ],
     week12: [
         {
-            question:
-                "The juvenile mortality rate is the annual number of deaths of juveniles per",
-            options: ["100 births", "1000 live births", "1000 births", "100 live births"],
-            correctAnswer: "1000 live births",
-        },
-        {
-            question: "Which of these is a non-renewable resource?",
-            options: ["wind", "sunlight", "coal", "hydropower"],
-            correctAnswer: "coal",
-        },
-        {
-            question: "Which of the following protocols aims to reduce greenhouse gas emissions?",
-            options: ["Kyoto Protocol", "Montreal Protocol", "Basel Convention", "Ramsar Convention"],
-            correctAnswer: "Kyoto Protocol",
-        },
-        {
-            question: "Which of these is a renewable source of energy?",
-            options: ["coal", "nuclear energy", "natural gas", "solar energy"],
-            correctAnswer: "solar energy",
-        },
-        {
-            question: "Which of these is considered the cleanest fossil fuel?",
-            options: ["coal", "natural gas", "oil", "wood"],
-            correctAnswer: "natural gas",
-        },
-        {
-            question: "What is the main purpose of the Ramsar Convention?",
-            options: [
-                "Conservation of marine life",
-                "Protection of wetlands",
-                "Control of pollution",
-                "Regulation of carbon emissions",
-            ],
-            correctAnswer: "Protection of wetlands",
-        },
-        {
-            question: "Which layer of the atmosphere contains the ozone layer?",
-            options: ["Mesosphere", "Stratosphere", "Thermosphere", "Exosphere"],
-            correctAnswer: "Stratosphere",
-        },
-        {
-            question: "Acid rain is mainly caused by emissions of",
-            options: ["carbon dioxide and nitrogen", "nitrogen dioxide and methane", "sulfur dioxide and nitrogen oxides", "methane and sulfur dioxide"],
-            correctAnswer: "sulfur dioxide and nitrogen oxides",
-        },
-        {
-            question: "Which of these gases is not a greenhouse gas?",
-            options: ["Methane", "Nitrous oxide", "Carbon dioxide", "Oxygen"],
-            correctAnswer: "Oxygen",
-        },
-        {
-            question: "The process by which plants release oxygen is called",
-            options: ["Respiration", "Photosynthesis", "Transpiration", "Decomposition"],
-            correctAnswer: "Photosynthesis",
-        },
+      "question": "The time of flight for LiDAR is 0.00001 sec. Find the distance of the object from the instrument.",
+      "options": ["500 m", "1000 m", "1500 m", "2000 m"],
+      "correctAnswer": "1500 m"
+    },
+    {
+      "question": "Which of these uses imputed willingness to pay?",
+      "options": ["market price method", "replacement cost method", "travel cost method", "contingent valuation method"],
+      "correctAnswer": "replacement cost method"
+    },
+    {
+      "question": "\"The situation of people, infrastructure, housing, production capacities and other tangible human assets located in hazard-prone areas.\" is a definition for",
+      "options": ["hazard", "exposure", "vulnerability", "disaster"],
+      "correctAnswer": "exposure"
+    },
+    {
+      "question": "\"A process, phenomenon or human activity that may cause loss of life, injury or other health impacts, property damage, social and economic disruption or environmental degradation.\" is a definition for",
+      "options": ["hazard", "exposure", "vulnerability", "disaster"],
+      "correctAnswer": "hazard"
+    },
+    {
+      "question": "\"A serious disruption of the functioning of a community or a society at any scale due to hazardous events interacting with conditions of exposure, vulnerability and capacity, leading to one or more of the following: human, material, economic and environmental losses and impacts.\" is a definition for",
+      "options": ["hazard", "exposure", "vulnerability", "disaster"],
+      "correctAnswer": "disaster"
+    },
+    {
+      "question": "\"The combination of all the strengths, attributes and resources available within an organisation, community or society to manage and reduce disaster risks and strengthen resilience.\" is a definition for",
+      "options": ["contingency", "disaster management", "vulnerability", "capacity"],
+      "correctAnswer": "capacity"
+    },
+    {
+      "question": "Bathymetric LiDAR uses",
+      "options": ["far infrared light", "near infrared light", "orange light", "green light"],
+      "correctAnswer": "green light"
+    },
+    {
+      "question": "IMU stands for",
+      "options": ["Imperial metering unit", "Inertial metering unit", "Imperial measurement unit", "Inertial measurement unit"],
+      "correctAnswer": "Inertial measurement unit"
+    },
+    {
+      "question": "Which of these is not a consumptive value?",
+      "options": ["timber", "firewood", "non-timber forest products", "education"],
+      "correctAnswer": "education"
+    },
+    {
+      "question": "The frequency of flyovers is an indicator of",
+      "options": ["spatial resolution", "temporal resolution", "spectral resolution", "radiometric resolution"],
+      "correctAnswer": "temporal resolution"
+    },
     ],
 };
 
